@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <style>
       body {
         color: #BADDAD;
@@ -10,14 +11,22 @@
     <title>Telekomunisten Assembly | asym.me/tric</title>
 	</head>
 	<body>
-  <iframe id="console"
-    title="assembly"
-    width="800"
-    height="600"
-    src="https://assembly.ydns.eu:3000">
-  </iframe>
-  <div>
-    <h1>Telekommunisten Assembly<h1>
-  </div>
+    <div class="dt mw6 center pt0 pb5 pv5-m pv6-ns">
+      <div class="db dtc-ns v-mid-ns">
+        <iframe id="console"
+          title="assembly"
+          width="800"
+          height="600"
+          src="https://assembly.ydns.eu:3000">
+        </iframe>
+      </div>
+      <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+        <h1>Telekommunisten Assembly<h1>
+        <p class="lh-copy">
+          For desktop, this text is vertically aligned middle, no matter what the height of the image is.
+          On mobile, this is a paragraph below an image.
+        </p>
+      </div>
+    </div>
 	</body>
 </html>
