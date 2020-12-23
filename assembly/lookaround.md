@@ -12,6 +12,11 @@ then you can just `go` there. `go` (without the '@') makes you go the room the
 exit leads to. You can teleport to any room you are allowed to go to with the
 `@go` command (note the "@") using the room's number, for example `@go #156`
 
+The first room is `#62` so if you want to return there from anywhere, type:
+```
+@go #62
+```
+
 ### More Help
 
 Typing `help movement` shows more help about moving around the Assembly.
