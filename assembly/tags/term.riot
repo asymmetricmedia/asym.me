@@ -1,0 +1,38 @@
+<term>
+  <template if={ state.available }>
+    <iframe if={ state.started }
+      id="console"
+      title="assembly"
+      width=720
+      height=405
+      src="{ props.host }">
+    </iframe>
+    <div if={ !state.started }>
+      <fetchmd fetch="microcopy/connect.md" />
+      <button onclick="{ setStarted }">connect</connect>
+    </div>
+  </template>
+  <template if={ !state.available }>
+      <fetchmd fetch="microcopy/unavailable.md" />
+  </template>
+  <script>
+    export default {
+      setStarted () {
+        window.location.hash = "#intro"
+        this.update({
+          started: true
+        })
+      },
+      onBeforeMount () {
+        const p = new Ping()
+        p.ping(this.props.host, (err, data) => {
+          if (!err) {
+            this.update({
+              available: true
+            })
+          }
+        })
+      }
+    }
+  </script>
+</term>

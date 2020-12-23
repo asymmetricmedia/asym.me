@@ -1,0 +1,31 @@
+<copy>
+  <div />
+  <script>
+    export default {
+      setInnerHTML () {
+        console.log('hash change')
+        const hash = window.location.hash || '#intro'
+        console.log('hash', hash)
+        fetch(`${hash.slice(1)}.md`)
+        .then(response => {
+          if (response.ok) {
+            return response.text()
+          } else {
+            return `${hash} not found`
+          }
+        })
+        .then((data) => {
+          const div = this.$('div')
+          div.innerHTML = marked(data)
+        })
+      },
+      onMounted () {
+        window.addEventListener("hashchange", () => {
+          this.setInnerHTML()
+        })
+        window.location.hash = '#intro'
+      }
+    }
+  </script>
+</copy>
+
