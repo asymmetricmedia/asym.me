@@ -2,6 +2,12 @@
 <html lang="en">
 	<head>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <script src="tags/fetchmd.riot" type="riot"></script>
+    <script src="tags/copy.riot" type="riot"></script>
+    <script src="tags/term.riot" type="riot"></script>
+    <script src="https://unpkg.com/riot@4/riot+compiler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alfg/ping.js@0.2.2/dist/ping.min.js"></script>
     <style>
       body {
         color: #BADDAD;
@@ -11,40 +17,25 @@
     <title>Telekommunisten Assembly | asym.me/tric</title>
 	</head>
 	<body>
-    <div class="dt center">
-      <div class="db dtc-ns v-mid-ns pl3-ns pt3-ns">
-        <iframe id="console"
-          title="assembly"
-          width="760"
-          height="500"
-          src="https://assembly.ydns.eu:3000">
-        </iframe>
+    <div class="center pt3">
+      <div class="fl w-60 ph3 tc">
+        <term host="https://assembly.ydns.eu:3000" />
       </div>
-      <div class="db dtc-ns h2 pr3-ns pl3-ns pt3-ns">
-        <code class="f6 pre">
-          [ #*  ] Telekommunisten Assembly
-
-~> To create an account use the create command:
-example: create quirk p@ssw@rd
-~> To connect to your account use the connect command:
-example: connect quirk p@ssw@rd
-
-The above examples use the player name "quirk" and
-the password "p@ssw@rd"
-use the player name you want to create or connect
-to instead, and choose a good password
-
-~> Once you have connected you can talk with the say command:
-example: say Greetings Comrades!
-        </code>
-        <p class="lh-copy">
-          More instructions comming soon.
-        </p>
-        <p>
-          Having trouble?
-          Ask for help on <a href="https://discord.com/invite/pQV97gY">Discord</a>
-        </p>
+      <div class="fl w-40">
+        <copy />
       </div>
     </div>
 	</body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => { 
+      (async function main() {
+        await riot.compile()
+
+        riot.mount('term')
+        riot.mount('raw')
+        riot.mount('fetchmd')
+        riot.mount('copy')
+      }())
+    })
+  </script>
 </html>
