@@ -13,16 +13,41 @@
         color: #BADDAD;
         background-color: #000000;
       }
+      h1, h2, h3, h4 {
+        color: lightgreen; 
+        text-transform: uppercase;
+      }
+      code {
+        color: #ffbf00;
+      }
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     </style>
     <title>Telekommunisten Assembly | asym.me/tric</title>
 	</head>
-	<body>
-    <div class="center pt3">
-      <div class="fl w-60 ph3 tc">
+	<body class="bt">
+    <div class="cf center f5">
+      <div class="fl w-60 consolas pt4 pr2 tc">
         <term host="https://assembly.ydns.eu:3000" />
       </div>
-      <div class="fl w-40">
+      <div class="fl w-40 lh-copy helvetica pl1 pr3">
         <copy />
+      </div>
+    </div>
+    <div class="cf f5 pt1 mt2 bt"> 
+      <div class="fl w-60 tc">
+        <p><a class="link nowrap" href="http://telekommunisten.net">
+          <span class="gold i fw9">#<span class="mt2 mr2">*</span></span><span class="dark-red">Telekommunisten</span>
+        </a></p>
+      </div>
+      <div class="fl w-40 helvetica pl2 tl">
+          <fetchmd fetch="microcopy/support.md" />
       </div>
     </div>
 	</body>

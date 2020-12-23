@@ -1,20 +1,30 @@
+#### Getting Started
+You interact with the Assembly by ***typing commands***
+
+The ***examples below*** use the player name `quirk` and the password
+`p@ssw@rd`. Use the player name you want to create, or to connect to instead,
+and choose a good password
+
+#### Creating an account
 ```
-[ #*  ] Telekommunisten Assembly
-
-~> To create an account use the create command:
-example: create quirk p@ssw@rd
-~> To connect to your account use the connect command:
-example: connect quirk p@ssw@rd
-
-The above examples use the player name "quirk" and
-the password "p@ssw@rd"
-use the player name you want to create or connect
-to instead, and choose a good password
-
-~> Once you have connected you can talk with the say command:
-example: say Greetings Comrades!
+create quirk p@ssw@rd
 ```
-More instructions comming soon.
 
-Having trouble?
-Ask for help on [Discord](https://discord.com/invite/pQV97gY)
+#### Connect to existing account
+```
+connect quirk p@ssw@rd
+```
+
+#### Speaking with others
+Once you have connected you can talk with the say command:
+```
+say Greetings Comrades!
+```
+
+You can also use `whisper` to talk to just one person
+
+```
+whisper "make me a programmer?" to quirk
+```
+
+&raquo; [Describe yourself](#describe) | [Create your Room](#createroom) | [Look Around](#lookaround)

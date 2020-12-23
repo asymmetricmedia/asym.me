@@ -1,5 +1,5 @@
 <term>
-  <template if={ state.available }>
+  <template if={ !state.unavailable }>
     <iframe if={ state.started }
       id="console"
       title="assembly"
@@ -12,7 +12,7 @@
       <button onclick="{ setStarted }">connect</connect>
     </div>
   </template>
-  <template if={ !state.available }>
+  <template if={ state.unavailable }>
       <fetchmd fetch="microcopy/unavailable.md" />
   </template>
   <script>
@@ -26,11 +26,9 @@
       onBeforeMount () {
         const p = new Ping()
         p.ping(this.props.host, (err, data) => {
-          if (!err) {
-            this.update({
-              available: true
-            })
-          }
+          this.update({
+            unavailable: err
+          })
         })
       }
     }
