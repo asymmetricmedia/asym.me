@@ -1,4 +1,4 @@
-#### Create Room
+### Create Room
 
 You can create your room with the `@dig` command, for example typing `@dig
 bunker` would create a room called bunker.

@@ -1,4 +1,4 @@
-#### Look around
+### Look around
 
 The `look` command by itself tells you abut the room your are in, you can look
 at something or someone by using `look` with the name of what you want to look
