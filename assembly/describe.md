@@ -4,10 +4,10 @@ When people use the `look` command to look at you, you can set the description
 that they see using the `@describe` command:
 
 ```
-@describe me as Looks freindly
+@describe me as Looks friendly
 ```
 
-The above commend would set your description to "Looks freindly"
+The above commend would set your description to "Looks friendly"
 
 Typing `@gender spivak` would set your gender to spivak. Possible genders
 include neuter, plural, spivak, male and female, type `help @gender` to learn
