@@ -9,7 +9,7 @@ free software.
 ## asym.me/tric Assembly
 
 An online conference platform based on MOO software originally developed in
-1990. Currently hosting the Telekommuisten Assembly.
+1990. Currently hosting the Telekommunisten Assembly.
 
 [asym.me/tric Assembly](/assembly)
 
