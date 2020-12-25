@@ -11,5 +11,5 @@ free software.
 An online conference platform based on MOO software originally developed in
 1990. Currently hosting the Telekommuisten Assembly.
 
-[asym.me/tric Assembly](assembly)
+&raquo; [asym.me/tric Assembly](assembly)
 
