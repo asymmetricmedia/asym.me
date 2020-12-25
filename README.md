@@ -1,5 +1,4 @@
-# asym.me
-asym.me/tric
+# asym.me/tric
 
 Dialogical Technology Agency, delivering digital products and campaigns using
 practises from critical pedagogy, radical theatre, statistical thinking, and
