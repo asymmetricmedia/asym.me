@@ -1,25 +1,51 @@
 <!doctype html>
 <html lang="en">
 	<head>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <script src="tags/fetchmd.riot" type="riot"></script>
+    <script src="tags/copy.riot" type="riot"></script>
+    <script src="https://unpkg.com/riot@4/riot+compiler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alfg/ping.js@0.2.2/dist/ping.min.js"></script>
     <style>
       body {
         color: #BADDAD;
         background-color: #000000;
       }
-      .logo {
-        font-size: 1.25em;
-        font-family: Courier;
-        font-weight: 900;
-        letter-spacing: -0.2em;
-        color: #000000;
-        background-color: #ffffff;
-        margin: 0.2em;
-        padding: 0.1em 0.3em;
+      h1, h2, h3, h4 {
+        color: lightgreen; 
+      }
+      code {
+        color: #ffbf00;
+      }
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      iframe {
+        border: 0;
       }
     </style>
     <title>asym.me/tric</title>
 	</head>
-	<body>
-    <p><span class="logo">./</span>asym.me/tric</p>
+	<body class="bt">
+    <div class="cf center f5 mw7">
+      <copy />
+    </div>
 	</body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => { 
+      (async function main() {
+        await riot.compile()
+
+        riot.mount('raw')
+        riot.mount('fetchmd')
+        riot.mount('copy')
+      }())
+    })
+  </script>
 </html>
