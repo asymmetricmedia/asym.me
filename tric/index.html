@@ -6,7 +6,6 @@
     <script src="tags/copy.riot" type="riot"></script>
     <script src="https://unpkg.com/riot@4/riot+compiler.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/alfg/ping.js@0.2.2/dist/ping.min.js"></script>
     <style>
       body {
         color: #BADDAD;
@@ -42,7 +41,6 @@
       (async function main() {
         await riot.compile()
 
-        riot.mount('raw')
         riot.mount('fetchmd')
         riot.mount('copy')
       }())
