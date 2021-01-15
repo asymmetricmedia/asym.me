@@ -12,7 +12,6 @@ Your room will have a number, that looks something like `#156`
 
 You can go to your room with the `@go` command, For example `@go #156` would
 take you to room #156, the bunker from our example
-
 Now you can describe your room with the `@describe` command
 
 ```
@@ -22,6 +21,9 @@ Description set.
 
 If you forget what number your room is, you can use the `@audit` command to
 list your objects, including your rooms.
+
+If you want to teleport back to the assembly, you can `@go #62` as #62 is the object number of the first room.
+
 
 ### More Help
 
