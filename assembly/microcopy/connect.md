@@ -1,5 +1,3 @@
-### asym.me/assembly
-
 ```
 #* Telekommunisten Assembly
 
