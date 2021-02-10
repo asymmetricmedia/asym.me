@@ -1,6 +1,6 @@
-### Uneasy Social: The Telekommunisten Assembly @transmediale
+#### Uneasy Social: The Telekommunisten Assembly @transmediale
 
-`Baruch Gottlieb`
+[Baruch Gottlieb](http://telekommunisten.net/author/baruch/)
 
 We all know easy social.  You say hello, someone says hello back.  But then the
 uneasiness begins. And that's the way it should be. The bigger the society, the
