@@ -1,4 +1,4 @@
-Uneasy Social: The Telekommunisten Assembly @transmediale
+# Uneasy Social: The Telekommunisten Assembly @transmediale
 
 Baruch Gottlieb
 
@@ -34,20 +34,20 @@ striving and strife.
 
 The general purpose internet wasn’t ever going to be the emancipatory
 environemnt it was advertised to be. How could it be? As Andrew Feenberg states
-in his “10 Paradoxes of technology” https://www.sfu.ca/~andrewf/paradoxes.pdf
-the way technologies have developed should not be seen as producing the best
-possible outcomes, such that the technologies we have around us today are the
-manifest destiny of technological progress.  No, at every stage,  the radically
-emancipatory potential of technologies is constrained by social imperatives.
-And in our age the top imperative comes from the top, from the investor class
-who rules the production chains.
+in his “10 Paradoxes of technology”[^1] the way technologies have developed
+should not be seen as producing the best possible outcomes, such that the
+technologies we have around us today are the manifest destiny of technological
+progress.  No, at every stage,  the radically emancipatory potential of
+technologies is constrained by social imperatives. And in our age the top
+imperative comes from the top, from the investor class who rules the production
+chains.
 
 When the satisfactory deployment of any new technology is always proportional
 to how much investment is attracted, its obvious that new technologies will
 only be implemented in ways which suit the interests of the investor classes,
 which are to make as much money in as short a time as possible, by enclosing
 and extracting maximum value from users. This drive to the bottom, producing
-platforms which maximise sensationalism, conflict and contraversy while at the
+platforms which maximise sensationalism, conflict and controversy while at the
 same time spying on and manipulating their users behaviour, fulfil this
 short-term profit imperative best, producing a world of fly-by-night, maximally
 exploitative commercial entities which rile us up, burn us out, and leave us
@@ -60,7 +60,7 @@ platform’s investors.
 In the 1930s in Germany, when the new technology of radio emerged, it was taken
 up by the many trained electronics engineers in the populace. An unprecedented
 new media form sprung up and became immensely popular: “Arbeiterfunk”.  Within
-months, dozens of independent workers radio stations had begiun exploring all
+months, dozens of independent workers radio stations had begun exploring all
 that a networked medium could perform in their community. The programming was
 eclectic and creative, new forms of worker’s opera, education, news and debate
 began to emerge. Of course all this was far too threatening for the powers that
@@ -70,7 +70,7 @@ contravening the censorious broadcast laws, invoked, of course, in the interest
 of public safety.
 
 Today, as the American and European empires falter,  we see a new looming
-crackdown on popular communcation space. It starts with enemies of decency, but
+crackdown on popular communication space. It starts with enemies of decency, but
 soon enough it is likely to spread to assign all manner of dissent as being
 threats to public safety. Easy social media will not help us contend with the
 coming challenges. We need uneasy social, social engagement where your
@@ -82,22 +82,21 @@ out of the platform.
 Unlike easy social where the platform extracts a hefty price for the ease of
 interaction and the narrow freedoms of indifference and dissociation, in uneasy
 social, the platform provides the minimum viable infrastructure for the robust
-social construction which can only emerge in community togeher. In uneasy
+social construction which can only emerge in community together. In uneasy
 social, everything you can do on the platform is made by someone you know, so
 you can ask how it works.  Contributing to the social construction means
 getting to know others as co-creators and comrades.
 
-For transmediale, telekommunisten retrieves uneasy social technology from the
-dawn of the Internet age in the form of a MOO.  A MOO
-https://en.wikipedia.org/wiki/MOO is a pre-cloud and pre-web fully programmable
-social environment, first developed in the 90s, where the environment can be
-infinitely expanded as desired by the users.   In this work of uneasily
-socialist contemporary networked artwork, valencies of social interaction are
-radically emancipated, all manner of new modes of social being can not only be
-designed, they can be co-designed, experienced and lived together. Uneasy
-social builds real social bonds because these serve purposes, there is a real
-economy of friendship in the network, because everyone’s satisfaction depends
-on everyone else.
+For transmediale, Telekommunisten retrieves uneasy social technology from the
+dawn of the Internet age in the form of a MOO.  A MOO[^2] is a pre-cloud and
+pre-web fully programmable social environment, first developed in the 90s,
+where the environment can be infinitely expanded as desired by the users.   In
+this work of uneasily socialist contemporary networked artwork, valencies of
+social interaction are radically emancipated, all manner of new modes of social
+being can not only be designed, they can be co-designed, experienced and lived
+together. Uneasy social builds real social bonds because these serve purposes,
+there is a real economy of friendship in the network, because everyone’s
+satisfaction depends on everyone else.
 
 Easy social merely means the hard part is being hidden from view, but we all
 know this hiding comes at a price! Real social is uneasy, cringe at times, but
@@ -113,3 +112,5 @@ need help? just ask in the MOO or join our discord!
 https://discord.gg/tZymcq4XTW
 
 
+[^1]: https://www.sfu.ca/~andrewf/paradoxes.pdf
+[^2]: https://en.wikipedia.org/wiki/MOO
