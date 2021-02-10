@@ -1,18 +1,16 @@
 ### Uneasy Social: The Telekommunisten Assembly @transmediale
 
-```
-Baruch Gottlieb
-```
+`Baruch Gottlieb`
 
 We all know easy social.  You say hello, someone says hello back.  But then the
 uneasiness begins. And that's the way it should be. The bigger the society, the
-more heterogenous, the more fraught with inequality, injustice, grudges,
+more heterogeneous, the more fraught with inequality, injustice, grudges,
 prejudice, or when you're lucky, preferences. The complex structure of large
 societies force us to get to know strangers, to help each other through the
 hard stuff, its not easy, but its worth it.
 
 When the Internet went mainstream, there was an moment called Eternal
-September. Until then, the internet was the domain mostly of people with
+September. Until then, the Internet was the domain mostly of people with
 privilege, many of which had technical interest or commitments in how the
 Internet worked. Of course they were civil to each other, like colleagues at
 a big factory.  And this big polyphonous civility led many to extrapolate that
@@ -24,7 +22,7 @@ But there already were indications for concern that things may not work out so
 smoothly. Every September, a new coterie of university students would get
 access to the Internet through their institutions. This increasingly diverse
 student body would instantly engage in all manner of experimental, irreverent
-behaviour, and, every September, those who had seen it all, and learned how to
+behaviour, and, every September, those who had seen it all, and learnt how to
 get along online had to instruct the newcomers how to avoid conflict and strife
 so that all could benefit from the network together.  Then came commercial
 providers and the floodgates opened. The small town became a bustling
@@ -33,12 +31,12 @@ as such ever again.  And rightly so.  The Internet came to resemble more truly
 the societies which had spawned it, with all its injustice, hate, hope,
 striving and strife.
 
-The general purpose internet wasn’t ever going to be the emancipatory
-environemnt it was advertised to be. How could it be? As Andrew Feenberg states
+The general purpose Internet wasn’t ever going to be the emancipatory
+environment it was advertised to be. How could it be? As Andrew Feenberg states
 in his “10 Paradoxes of technology”[^1] the way technologies have developed
 should not be seen as producing the best possible outcomes, such that the
 technologies we have around us today are the manifest destiny of technological
-progress.  No, at every stage,  the radically emancipatory potential of
+progress.  No, at every stage, the radically emancipatory potential of
 technologies is constrained by social imperatives. And in our age the top
 imperative comes from the top, from the investor class who rules the production
 chains.
@@ -106,13 +104,11 @@ social at the Telekommunisten Assembly!  Local networked media art hosted on
 a little board beneath a love seat in Prenzlauer Berg!  MOO programming
 sessions every month!
 
-```
 The Telekommunisten Assembly: https://asym.me/assembly/ or join us by telnet
-assembly.asym.me port 7777
+`assembly.asym.me port 7777`
 
 need help? just ask in the MOO or join our discord!
 https://discord.gg/tZymcq4XTW
-```
 
 --- 
 [^1]: https://www.sfu.ca/~andrewf/paradoxes.pdf
