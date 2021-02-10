@@ -1,6 +1,8 @@
 ### Uneasy Social: The Telekommunisten Assembly @transmediale
-##### Baruch Gottlieb
 
+```
+Baruch Gottlieb
+```
 
 We all know easy social.  You say hello, someone says hello back.  But then the
 uneasiness begins. And that's the way it should be. The bigger the society, the
@@ -104,12 +106,16 @@ social at the Telekommunisten Assembly!  Local networked media art hosted on
 a little board beneath a love seat in Prenzlauer Berg!  MOO programming
 sessions every month!
 
+```
 The Telekommunisten Assembly: https://asym.me/assembly/ or join us by telnet
 assembly.asym.me port 7777
 
 need help? just ask in the MOO or join our discord!
 https://discord.gg/tZymcq4XTW
+```
 
-
+--- 
 [^1]: https://www.sfu.ca/~andrewf/paradoxes.pdf
 [^2]: https://en.wikipedia.org/wiki/MOO
+
+
