@@ -13,3 +13,13 @@ An online conference platform based on MOO software originally developed in
 
 &raquo; [asym.me/tric Assembly](/assembly)
 
+
+# Partners
+
+RITA Research Institute for Technical Aesthetics
+Telekommunisten
+Kunstforum Den Haag
+
+want to work with us? get in touch! tric [at] asym [dot] me
+
+
