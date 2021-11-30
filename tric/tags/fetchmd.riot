@@ -14,7 +14,7 @@
         })
         .then((data) => {
           const div = this.$('div')
-          div.innerHTML = marked(data)
+          div.innerHTML = marked.parse(data)
         })
       },
       onMounted () {
