@@ -13,3 +13,8 @@ An online conference platform based on MOO software originally developed in
 
 &raquo; [asym.me/tric Assembly](assembly)
 
+## asym.me/tric Magazine
+
+Coming soon.
+
+
