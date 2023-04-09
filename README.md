@@ -2,4 +2,4 @@
 
 > We have been naught, we shall be all.
 
-[tric/README](tric/README)
+[tric/README.md](tric/README.md)
